@@ -1,0 +1,55 @@
+.header{
+    background-color: yellow;
+    background-image: linear-gradient(to right, orange,yellow);
+}
+body{
+    background-color: rgb(231, 229, 229);
+}
+
+.note{
+    height: 120px;
+    background-color: white;
+    width: 19%;
+    margin: 10px;
+    
+}
+.opration{
+    float: center;
+}
+.edit{
+    background-color: rgb(57, 216, 57);
+    color: white;
+    border: none; 
+    border-radius: 50%;
+}
+
+.delet{
+    background-color: rgb(228, 74, 74);
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
+
+
+.note textarea{
+    width: 400%;
+    height: 90px;
+    border: none;
+    margin-top: 4px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    box-decoration-break: clone;
+    
+}
+.note .main{
+    width: 400%;
+    height: 90px;
+    border: none;
+    margin-top: 4px;
+    /* background-color: aqua; */
+    overflow: hidden;
+
+}
+.hidden{
+    display: none;
+}
